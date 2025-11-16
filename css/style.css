@@ -643,6 +643,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     transition: var(--transition);
 }
+.force-ltr { direction: ltr; unicode-bidi: bidi-override; }
 .contact-item a:visited { color: var(--primary-green); }
 .contact-item a:hover {
     color: #fff;
