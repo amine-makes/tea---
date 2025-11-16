@@ -1,0 +1,10 @@
+{
+  "name": "naghma-tea",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Naghma Tea website with serverless API for custom tea requests.",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}

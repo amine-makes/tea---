@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Keep frontend code calling /api/send-custom-tea
+[[redirects]]
+  from = "/api/send-custom-tea"
+  to = "/.netlify/functions/send-custom-tea"
+  status = 200

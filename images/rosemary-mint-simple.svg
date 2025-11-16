@@ -1,0 +1,36 @@
+<svg width="280" height="350" viewBox="0 0 280 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rosemaryBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e8ff"/>
+      <stop offset="100%" style="stop-color:#e9d5ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Box -->
+  <rect x="20" y="40" width="240" height="280" rx="12" fill="url(#rosemaryBox)" stroke="#8b5cf6" stroke-width="2"/>
+  
+  <!-- Label -->
+  <rect x="35" y="80" width="210" height="150" rx="8" fill="#7c3aed" opacity="0.9"/>
+  
+  <!-- Logo circle -->
+  <circle cx="140" cy="120" r="20" fill="#8b5cf6"/>
+  <text x="140" y="127" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">نغمة</text>
+  
+  <!-- Product name -->
+  <text x="140" y="155" font-family="serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#c4b5fd">Rosemary & Mint</text>
+  <text x="140" y="175" font-family="serif" font-size="11" text-anchor="middle" fill="#fdf4ff">إكليل الجبل والنعناع</text>
+  
+  <!-- Herb illustrations -->
+  <line x1="115" y1="195" x2="115" y2="210" stroke="#8b5cf6" stroke-width="2"/>
+  <ellipse cx="130" cy="200" rx="6" ry="10" fill="#22c55e" transform="rotate(15)"/>
+  <ellipse cx="150" cy="205" rx="5" ry="8" fill="#16a34a" transform="rotate(-20)"/>
+  <line x1="165" y1="195" x2="165" y2="210" stroke="#7c3aed" stroke-width="1.5"/>
+  
+  <!-- Weight -->
+  <rect x="50" y="260" width="180" height="25" rx="12" fill="#8b5cf6"/>
+  <text x="140" y="277" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">300g Aromatic Blend</text>
+  
+  <!-- Price -->
+  <circle cx="220" cy="100" r="18" fill="#8b5cf6"/>
+  <text x="220" y="105" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">23 DH</text>
+</svg>

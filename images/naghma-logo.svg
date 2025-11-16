@@ -1,0 +1,57 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4d2e"/>
+      <stop offset="50%" style="stop-color:#2d5a3d"/>
+      <stop offset="100%" style="stop-color:#7fb069"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9a961"/>
+      <stop offset="100%" style="stop-color:#b8941f"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#logoGradient)" stroke="url(#goldGradient)" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Plant/Tea leaves design at top -->
+  <g transform="translate(60, 25)">
+    <!-- Main stem -->
+    <line x1="0" y1="0" x2="0" y2="25" stroke="url(#goldGradient)" stroke-width="2"/>
+    
+    <!-- Left leaves -->
+    <ellipse cx="-8" cy="8" rx="6" ry="12" fill="#7fb069" opacity="0.8" transform="rotate(-30)"/>
+    <ellipse cx="-12" cy="16" rx="5" ry="10" fill="#90ee90" opacity="0.7" transform="rotate(-45)"/>
+    
+    <!-- Right leaves -->
+    <ellipse cx="8" cy="8" rx="6" ry="12" fill="#7fb069" opacity="0.8" transform="rotate(30)"/>
+    <ellipse cx="12" cy="16" rx="5" ry="10" fill="#90ee90" opacity="0.7" transform="rotate(45)"/>
+    
+    <!-- Center leaf -->
+    <ellipse cx="0" cy="5" rx="4" ry="8" fill="#7fb069"/>
+  </g>
+  
+  <!-- Arabic text "نغمة" -->
+  <text x="60" y="75" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle" fill="url(#goldGradient)" filter="url(#shadow)">نغمة</text>
+  
+  <!-- English subtitle -->
+  <text x="60" y="90" font-family="serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#f7f3e9" opacity="0.9">Tea</text>
+  
+  <!-- Decorative dots around the text -->
+  <circle cx="25" cy="75" r="2" fill="url(#goldGradient)" opacity="0.6"/>
+  <circle cx="95" cy="75" r="2" fill="url(#goldGradient)" opacity="0.6"/>
+  <circle cx="35" cy="85" r="1.5" fill="#7fb069" opacity="0.5"/>
+  <circle cx="85" cy="85" r="1.5" fill="#7fb069" opacity="0.5"/>
+  
+  <!-- Tea cup icon at bottom -->
+  <g transform="translate(60, 95)">
+    <path d="M-8 0 L-8 8 Q-8 12 -4 12 L4 12 Q8 12 8 8 L8 0 Z" fill="#f7f3e9" stroke="url(#goldGradient)" stroke-width="0.5" opacity="0.8"/>
+    <!-- Steam -->
+    <path d="M-4 -2 Q-4 -4 -2 -4 Q-4 -6 -2 -6" fill="none" stroke="url(#goldGradient)" stroke-width="0.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M0 -3 Q0 -5 2 -5 Q0 -7 2 -7" fill="none" stroke="url(#goldGradient)" stroke-width="0.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M4 -2 Q4 -4 6 -4 Q4 -6 6 -6" fill="none" stroke="url(#goldGradient)" stroke-width="0.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<svg width="300" height="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mintBoxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4"/>
+      <stop offset="50%" style="stop-color:#dcfce7"/>
+      <stop offset="100%" style="stop-color:#bbf7d0"/>
+    </linearGradient>
+    <linearGradient id="mintLabelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#166534"/>
+      <stop offset="100%" style="stop-color:#15803d"/>
+    </linearGradient>
+    <filter id="boxShadow">
+      <feDropShadow dx="4" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.2)"/>
+    </filter>
+  </defs>
+  
+  <!-- Box base -->
+  <rect x="20" y="50" width="260" height="320" rx="15" ry="15" fill="url(#mintBoxGradient)" stroke="#10b981" stroke-width="2" filter="url(#boxShadow)"/>
+  
+  <!-- Top flap -->
+  <path d="M20 65 L280 65 L270 50 L30 50 Z" fill="#a7f3d0" stroke="#10b981" stroke-width="1"/>
+  
+  <!-- Main label background -->
+  <rect x="40" y="100" width="220" height="180" rx="10" ry="10" fill="url(#mintLabelGradient)" opacity="0.9"/>
+  
+  <!-- Naghma logo area -->
+  <circle cx="150" cy="140" r="25" fill="#10b981" opacity="0.9"/>
+  <text x="150" y="148" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">نغمة</text>
+  
+  <!-- Product name -->
+  <text x="150" y="190" font-family="serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#10b981">Mint Blend</text>
+  <text x="150" y="210" font-family="serif" font-size="16" text-anchor="middle" fill="#f0fdf4">مزيج النعناع</text>
+  
+  <!-- Mint leaves decoration -->
+  <g transform="translate(150, 240)">
+    <!-- Large fresh mint leaves -->
+    <ellipse cx="-25" cy="-8" rx="12" ry="20" fill="#22c55e" opacity="0.9" transform="rotate(-25)"/>
+    <ellipse cx="-8" cy="8" rx="10" ry="18" fill="#4ade80" opacity="0.8" transform="rotate(-10)"/>
+    <ellipse cx="8" cy="-12" rx="14" ry="22" fill="#16a34a" opacity="0.9" transform="rotate(5)"/>
+    <ellipse cx="25" cy="12" rx="11" ry="19" fill="#22c55e" opacity="0.8" transform="rotate(30)"/>
+    <ellipse cx="0" cy="15" rx="9" ry="16" fill="#15803d" opacity="0.7" transform="rotate(-15)"/>
+    
+    <!-- Additional smaller mint leaves -->
+    <ellipse cx="-15" cy="-20" rx="6" ry="10" fill="#4ade80" opacity="0.6" transform="rotate(-45)"/>
+    <ellipse cx="20" cy="-8" rx="7" ry="12" fill="#22c55e" opacity="0.7" transform="rotate(50)"/>
+    <ellipse cx="-30" cy="20" rx="5" ry="9" fill="#16a34a" opacity="0.6" transform="rotate(10)"/>
+    <ellipse cx="30" cy="-2" rx="6" ry="11" fill="#15803d" opacity="0.5" transform="rotate(-30)"/>
+    
+    <!-- Detailed mint leaf veins and serrated edges -->
+    <path d="M-25 -8 L-25 12 M-8 8 L-8 26 M8 -12 L8 10 M25 12 L25 31 M0 15 L0 31" stroke="#166534" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Serrated edges on mint leaves -->
+    <path d="M-20 -15 Q-18 -13 -20 -11 Q-18 -9 -20 -7 Q-18 -5 -20 -3 Q-18 -1 -20 1 Q-18 3 -20 5" stroke="#166534" stroke-width="0.6" opacity="0.6" fill="none" transform="rotate(-25) translate(-25, -8)"/>
+    <path d="M-5 0 Q-3 2 -5 4 Q-3 6 -5 8 Q-3 10 -5 12 Q-3 14 -5 16 Q-3 18 -5 20" stroke="#166534" stroke-width="0.6" opacity="0.6" fill="none" transform="rotate(-10) translate(-8, 8)"/>
+    <path d="M10 -20 Q12 -18 10 -16 Q12 -14 10 -12 Q12 -10 10 -8 Q12 -6 10 -4 Q12 -2 10 0 Q12 2 10 4" stroke="#166534" stroke-width="0.6" opacity="0.6" fill="none" transform="rotate(5) translate(8, -12)"/>
+    
+    <!-- Fresh mint sprinkles around -->
+    <ellipse cx="-40" cy="0" rx="3" ry="5" fill="#22c55e" opacity="0.4" transform="rotate(60)"/>
+    <ellipse cx="40" cy="5" rx="4" ry="6" fill="#4ade80" opacity="0.5" transform="rotate(-40)"/>
+    <ellipse cx="-35" cy="-25" rx="2" ry="4" fill="#16a34a" opacity="0.3" transform="rotate(20)"/>
+    <ellipse cx="35" cy="-20" rx="3" ry="5" fill="#22c55e" opacity="0.4" transform="rotate(-60)"/>
+    
+    <!-- Refreshing aroma lines -->
+    <path d="M-10 -30 Q-15 -35 -10 -40 Q-5 -45 -10 -50" fill="none" stroke="#22c55e" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M10 -25 Q15 -30 10 -35 Q5 -40 10 -45" fill="none" stroke="#4ade80" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M0 -35 Q-5 -40 0 -45 Q5 -50 0 -55" fill="none" stroke="#16a34a" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    
+    <!-- Dewdrops on leaves for freshness -->
+    <circle cx="-20" cy="-5" r="1.5" fill="#ffffff" opacity="0.8"/>
+    <circle cx="15" cy="5" r="1.2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="5" cy="-5" r="1" fill="#ffffff" opacity="0.6"/>
+    <circle cx="-5" cy="18" r="0.8" fill="#ffffff" opacity="0.5"/>
+  </g>
+  
+  <!-- Weight indicator -->
+  <rect x="50" y="300" width="200" height="30" rx="15" ry="15" fill="#10b981" opacity="0.9"/>
+  <text x="150" y="320" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">300g Premium Mint Tea</text>
+  
+  <!-- Side panel design -->
+  <rect x="280" y="50" width="15" height="320" fill="#22c55e" opacity="0.7"/>
+  
+  <!-- Bottom design -->
+  <rect x="20" y="350" width="260" height="20" fill="#166534" opacity="0.4"/>
+  
+  <!-- Price tag -->
+  <ellipse cx="250" cy="120" rx="25" ry="20" fill="#10b981"/>
+  <text x="250" y="118" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">23</text>
+  <text x="250" y="130" font-family="sans-serif" font-size="8" text-anchor="middle" fill="white">DH</text>
+  
+  <!-- Fresh indicator -->
+  <ellipse cx="70" cy="120" rx="20" ry="15" fill="#22c55e" opacity="0.8"/>
+  <text x="70" y="125" font-family="sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">FRESH</text>
+</svg>

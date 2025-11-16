@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Local env
+.env
+.env.*
+
+# Netlify
+.netlify/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Builds / caches
+.dist/
+dist/
+build/
+coverage/

@@ -1,0 +1,34 @@
+<svg width="280" height="350" viewBox="0 0 280 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gingerBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7"/>
+      <stop offset="100%" style="stop-color:#fed7aa"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Box -->
+  <rect x="20" y="40" width="240" height="280" rx="12" fill="url(#gingerBox)" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Label -->
+  <rect x="35" y="80" width="210" height="150" rx="8" fill="#d97706" opacity="0.9"/>
+  
+  <!-- Logo circle -->
+  <circle cx="140" cy="120" r="20" fill="#f59e0b"/>
+  <text x="140" y="127" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">نغمة</text>
+  
+  <!-- Product name -->
+  <text x="140" y="155" font-family="serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#fbbf24">Ginger & Lemon</text>
+  <text x="140" y="175" font-family="serif" font-size="12" text-anchor="middle" fill="#fffbeb">الزنجبيل والليمون</text>
+  
+  <!-- Ginger illustration -->
+  <ellipse cx="110" cy="200" rx="8" ry="12" fill="#d97706" transform="rotate(-15)"/>
+  <ellipse cx="170" cy="195" rx="10" ry="8" fill="#fbbf24"/>
+  
+  <!-- Weight -->
+  <rect x="50" y="260" width="180" height="25" rx="12" fill="#f59e0b"/>
+  <text x="140" y="277" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">300g Energizing Blend</text>
+  
+  <!-- Price -->
+  <circle cx="220" cy="100" r="18" fill="#f59e0b"/>
+  <text x="220" y="105" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white">23 DH</text>
+</svg>
